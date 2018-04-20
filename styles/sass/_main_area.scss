@@ -1,13 +1,27 @@
 // VARIABLES -------------------------------
 
+$color-primary: rgb(35, 149, 255);
+$color-shade: rgb(31, 30, 30);
+
+$font-Roboto: 'Roboto', sans-serif;
 
 body {
-    background-color: rgb(35, 149, 255);
+    background-color: $color-primary;
+    z-index: 1000;
+}
+
+#back-layer {
+    background-color: $color-shade;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
 }
 
 #click-clue {
+    color: white;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 180px;
+    font-family: $font-Roboto;
 }
 
 
